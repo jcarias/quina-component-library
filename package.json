@@ -1,0 +1,30 @@
+{
+  "name": "quina-component-library",
+  "version": "1.0.0",
+  "description": "Utilitary reusable React components",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "./node_modules/.bin/babel src --out-file index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jcarias/quina-component-library.git"
+  },
+  "keywords": [
+    "React",
+    "components"
+  ],
+  "author": "João Carias",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jcarias/quina-component-library/issues"
+  },
+  "homepage": "https://github.com/jcarias/quina-component-library#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.6.0",
+    "@babel/core": "^7.6.0",
+    "@babel/preset-env": "^7.6.0",
+    "@babel/preset-react": "^7.0.0"
+  }
+}
